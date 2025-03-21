@@ -39,7 +39,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
 const Projects = () => {
     return (
         <div className="bg-black">
-            <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12">
+            <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12 min-h-[80vh]">
                 {project.map((item, index) => (
                     <ProjectCard
                         key={index}
